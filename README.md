@@ -25,7 +25,7 @@ This app is an clone app based on Uber Technologies
 
 This project was built with these powerfull technologies:
 
-- [Node.js](https://nodejs.org/en/) (API em desenvolvimento)
+- [Node.js](https://nodejs.org/en/) (API in development)
 - [React Native](https://facebook.github.io/react-native/)
 - [Expo](https://expo.io/)
 - [Google Maps API](https://maps.google.com/)
