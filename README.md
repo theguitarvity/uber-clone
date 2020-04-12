@@ -1,6 +1,6 @@
 # Uber - Clone
 
-Repositório referente ao código de um app clone do Uber, feito com objetivo de estudos apenas.
+This app is an clone app based on Uber Technologies
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/theguitarvity/uber-clone">
 
@@ -21,9 +21,9 @@ Repositório referente ao código de um app clone do Uber, feito com objetivo de
     <img alt="UberClone" title="#uber-clone" src="https://i.imgur.com/M4VvXVt.png" width="800px" />
 </h1>
 
-## :rocket: Tecnologias
+## :rocket: Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was built with these powerfull technologies:
 
 - [Node.js](https://nodejs.org/en/) (API em desenvolvimento)
 - [React Native](https://facebook.github.io/react-native/)
@@ -34,10 +34,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 # Arquivos
 
-Neste Repositório se encontram os códigos fontes do backend(API) e versão mobile.
+In this Repository are the source codes of the backend (API) and the mobile version.
 ## API
-Em desenvolvimento
+In development
 
 ## Mobile
 
-App mobile construído com React-native utilizando componentes nativos do framework.
+Mobile app buit with React Native and Expo
