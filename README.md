@@ -32,7 +32,7 @@ This project was built with these powerfull technologies:
 
 
 
-# Arquivos
+# Files
 
 In this Repository are the source codes of the backend (API) and the mobile version.
 ## API
