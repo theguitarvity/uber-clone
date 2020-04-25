@@ -1,7 +1,9 @@
 const express = require('express')
-const PriceController = require('./http/controllers/PriceController') 
+
 const routes = express.Router()
 
-routes.post('/price', PriceController.calculatePriceTrip)
+routes.get('/', (req, res)=>{
+  res.send('Hello World')
+})
 
 module.exports = routes

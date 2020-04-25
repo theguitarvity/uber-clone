@@ -9,7 +9,8 @@ import Geocoder from 'react-native-geocoding'
 import markerImage from '../../assets/marker.png'
 import backImage from '../../assets/back.png'
 import Details from '../Details'
-Geocoder.init('AIzaSyD8hL3FXNunfdYTUAR8FdOq8j5q82UpR8k')
+import {MAPS_API_KEY} from 'react-native-  dotenv'
+Geocoder.init(MAPS_API_KEY)
 
 export default function Map(){
     const [region, setRegion] = useState(null)

@@ -1,5 +1,6 @@
 import React from 'react'
 import MapViewDirections from 'react-native-maps-directions'
+import {MAPS_API_KEY} from 'react-native-dotenv'
 
 export default function Directions({destination, origin, onReady}){
   return (
@@ -7,7 +8,7 @@ export default function Directions({destination, origin, onReady}){
       destination={destination}
       origin={origin}
       onReady={onReady}
-      apikey="AIzaSyD8hL3FXNunfdYTUAR8FdOq8j5q82UpR8k"
+      apikey={MAPS_API_KEY}
       strokeWidth={3}
       strokeColor="#222"
     />

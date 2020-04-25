@@ -2,6 +2,7 @@ import React, {useState} from 'react'
 
 import { GooglePlacesAutocomplete } from 'react-native-google-places-autocomplete'
 import { Platform } from 'react-native'
+import { MAPS_API_KEY } from 'react-native-dotenv'
 
 export default function Search(props){
 
@@ -74,7 +75,7 @@ export default function Search(props){
       placeholderTextColor="#333"
       onPress={onLocationSelected}
       query={{
-        key:'AIzaSyD8hL3FXNunfdYTUAR8FdOq8j5q82UpR8k',
+        key:MAPS_API_KEY,
         language:'pt'
       }}
       textInputProps={{
